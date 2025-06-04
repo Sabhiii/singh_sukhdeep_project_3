@@ -1,0 +1,47 @@
+
+
+.hidden {
+    display: none;
+}
+
+.box {
+    background-color: #262626;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#hero{
+    height: 50px;
+    padding: 20%;
+}
+
+#prdct1{
+    height: 120px;
+}
+#prdct2{
+    height: 120px;
+}
+#sr1{
+   height: 135px;
+}
+#sr2{
+    height: 135px;
+ }
+ #sr3{
+    height: 135px;
+ }
+ #sr4{
+    height: 135px;
+ }
+ #sr5{
+    height: 135px;
+ }
+ #sr6{
+    height: 135px;
+ }
+ #footer{
+    height: 120px;
+ }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Responsive Grid Layout</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="grid-con" id="main-header">
+        <div class="box col-span-1 col-span-3 m-col-span-1  l-col-start-1 l-col-end-3 " id="main-logo">Logo</div>
+        <div class="box col-span-1 m-col-span-5 l-col-start-3 l-col-end-13" id="main-nav">Nav</div>
+    </header>
+
+    <main>
+        
+        <section class="grid-con" id="hero-con">
+            <h2 class="hidden">hero part</h2>
+            <div class="box col-span-full" id="hero">Hero Image</div>
+        </section>
+
+        <section class="grid-con" id="products">
+            <h2 class="hidden">prd</h2>
+            <div class="box col-span-full m-col-span-3 l-col-span-6" id="prdct1">Product 1</div>
+            <div class="box col-span-full m-col-span-3 l-col-span-6" id="prdct2" >Product 2</div>
+        </section>
+
+        <section class="grid-con" id="services">
+            <h2 class="hidden">service</h2>
+            <div class="box col-span-2 l-col-span-3" id="sr1" >Service 1</div>
+            <div class="box col-span-2 l-col-span-3" id="sr2">Service 2</div>
+            <div class="box col-span-2 l-col-span-3" id="sr3">Service 3</div>
+            <div class="box col-span-2 l-col-span-3" id="sr4">Service 4</div>
+            <div class="box col-span-2 l-col-span-3" id="sr5">Service 5</div>
+            <div class="box l-col-start-4 l-col-end-10"  id="Image">image</div>
+            <div class="box col-span-2 l-col-span-3" id="sr6">Service 6</div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="grid-con">
+            <nav class="box col-span-full" id="footer">Footer</nav>
+        </div>
+
+    </footer>
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
